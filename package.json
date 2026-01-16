@@ -1,0 +1,25 @@
+{
+  "name": "bellman-derivation-playground-ts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cortex-js/compute-engine": "^0.26.4",
+    "katex": "^0.16.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
